@@ -7,6 +7,7 @@
     "start": "nodemon app.js",
     "startExpress": "nodemon expressJs/app.js",
     "startExpressRoutes": "nodemon expressJs_Routing/app.js",
+    "startExpressViews": "nodemon expressJs_views/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "IOlockness",
