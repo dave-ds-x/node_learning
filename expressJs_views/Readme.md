@@ -1,0 +1,1 @@
+Let's see how to use views, so sending html pages instead of string as html code by creating a new folder and adding html pages into it
