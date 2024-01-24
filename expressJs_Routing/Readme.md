@@ -1,7 +1,1 @@
-Section 3 contents
-- Create a node server
-- node lifecycle and event loop
-- Requests and responses
-- Routing
-- Redirecting
-- Using modules
+Let's see how to use middlewares with routing and its features (get, post, delete)

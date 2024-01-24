@@ -11,8 +11,9 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 // App use identifies a startsWith match with path
 // App get / post / delete / ... identifies an exact match with path
-app.use(adminRoutes)
-app.use(shopRoutes)
+// The firs parameter is a path filer
+app.use("/admin", adminRoutes)
+app.use("/shop", shopRoutes)
 
 // status wants an http code and in case it verifies, sends what in send function
 app.use((req, res, next) => {
